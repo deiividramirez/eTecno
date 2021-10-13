@@ -6,18 +6,21 @@
 
     <Header/>
 
+
     <v-main>
       <v-container>
         <router-view></router-view>
-        <!-- <v-footer app>Soy un footer</v-footer> -->
+      <!-- <v-footer app>Soy un footer</v-footer> -->
         <!-- <v-bottom-navigation app color="secondary"></v-bottom-navigation> -->
       </v-container>
     </v-main>
+    <Footer />
   </v-app>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
+import Footer from './components/Footer.vue';
 
 export default {
   name: "App",
@@ -28,6 +31,7 @@ export default {
 
   components: {
     Header,
+    Footer,
   },
 };
 </script>

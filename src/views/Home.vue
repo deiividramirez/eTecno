@@ -1,15 +1,15 @@
 <template>
-  <inicio />
+  <pagina-producto />
 </template>
 
 <script>
-  import inicio from './inicio.vue'
+  import paginaProducto from './paginaProducto.vue'
 
   export default {
     name: 'Inicio',
 
     components: {
-      inicio,
+      paginaProducto,
     },
   }
 </script>
