@@ -32,7 +32,7 @@
             <v-list-item-icon>
                 <v-icon>mdi-login-variant</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Login</v-list-item-title>
+            <v-list-item-title @click="llamarLogin()">Login</v-list-item-title>
         </v-list-item>
         <v-list-item link>
             <v-list-item-icon>
@@ -68,9 +68,9 @@ export default {
         llamarInicio() {
             this.$router.push('/inicio')
         },
-        // llamarContacto(){
-        //     this.$router.push('/contacto')
-        // }
+        llamarLogin(){
+            this.$router.push('/login')
+        }
     }
 }
 </script>

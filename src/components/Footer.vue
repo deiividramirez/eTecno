@@ -21,10 +21,10 @@
             </div>
 
             <div class="middle-box text-white">
-                <div><a href="index.html">Home</a></div>
-                <div><a href="#">Tienda</a></div>
-                <div><a href="#">Carrito</a></div>
-                <div class="contact"><a href="contacto.html">Contáctenos</a></div>
+                <div><a href="/inicio">Home</a></div>
+                <div><a href="/login">Login</a></div>
+                <div><a href="/carrito">Carrito</a></div>
+                <div class="contact"><a href="/contacto">Contáctenos</a></div>
                 <div class="media-icons">
                     <a href="#">
                         <v-list-item-icon>
