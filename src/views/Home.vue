@@ -1,16 +1,15 @@
 <template>
-  <inicio />
+<inicio />
 </template>
 
 <script>
 import inicio from './inicio.vue'
 
+export default {
+     name: 'Inicio',
 
-  export default {
-    name: 'Inicio',
-
-    components: {
-      inicio,
-    },
-  }
+     components: {
+          inicio,
+     },
+}
 </script>
