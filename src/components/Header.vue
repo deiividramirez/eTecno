@@ -15,14 +15,12 @@
         </v-list-item>
     </v-list>
 
-    <v-divider></v-divider>
-
     <v-list nav dense>
         <v-list-item link>
             <v-list-item-icon>
                 <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Home</v-list-item-title>
+            <v-list-item-title @click="llamarInicio()">Inicio</v-list-item-title>
         </v-list-item>
         <v-list-item link>
             <v-list-item-icon>
@@ -35,6 +33,12 @@
                 <v-icon>mdi-login-variant</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Login</v-list-item-title>
+        </v-list-item>
+        <v-list-item link>
+            <v-list-item-icon>
+                <v-icon>mdi-cart</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>Carrito</v-list-item-title>
         </v-list-item>
     </v-list>
 </v-navigation-drawer>
@@ -58,11 +62,17 @@
 <script>
 export default {
     data() {
-        return {
-            drawer: true,
-        };
+
     },
-};
+    methods: {
+        llamarInicio() {
+            this.$router.push('/inicio')
+        },
+        // llamarContacto(){
+        //     this.$router.push('/contacto')
+        // }
+    }
+}
 </script>
 
 <style>
