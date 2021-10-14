@@ -1,6 +1,6 @@
 <template>
 <v-container>
-<v-carousel hide-delimiters>
+<v-carousel hide-delimiters class="carrou">
     <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" reverse-transition="fade-transition" transition="fade-transition"></v-carousel-item>
 </v-carousel>
 
@@ -12,19 +12,23 @@ export default {
     data() {
         return {
             items: [{
-                    src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+                    src: require('../assets/Imágenes/Carou1.png'),
                 },
                 {
-                    src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+                    src: require('../assets/Imágenes/Carou2.png'),
                 },
                 {
-                    src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-                },
-                {
-                    src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-                },
+                    src: require('../assets/Imágenes/Carou3.png'),
+                }
             ],
         }
     },
 }
 </script>
+<style scoped>
+.carrou{
+    width: 100%;
+
+}
+
+</style>
