@@ -61,7 +61,7 @@ export default {
                          src: require('../assets/Imágenes/PC_s/COMPUTADORA DE MESA RYZEN 5/RYZEN 5 2.png'),
                     },
                     {
-                         src: require('../assets/Imágenes/PC_s/COMPUTADORA DE MESA RYZEN 5/RYZEN 5 3.png'),
+                         src: require('../assets/Imágenes/PC_s/COMPUTADORA DE MESA RYZEN 5/RYZEN 5 3.jpg'),
                     },
                ],
           }

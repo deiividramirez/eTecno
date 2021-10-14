@@ -52,10 +52,10 @@ export default {
                          src: require('../assets/Imágenes/SOTWARE/LICENCIA OFFICE 365/LICENCIA OFFICE 1.jpg'),
                     },
                     {
-                         src: require('../assets/Imágenes/SOTWARE/LICENCIA OFFICE 365/LICENCIA OFFICE 2.jpg'),
+                         src: require('../assets/Imágenes/SOTWARE/LICENCIA OFFICE 365/LICENCIA OFFICE 2.png'),
                     },
                     {
-                         src: require('../assets/Imágenes/SOTWARE/LICENCIA OFFICE 365/LICENCIA OFFICE 3.jpg'),
+                         src: require('../assets/Imágenes/SOTWARE/LICENCIA OFFICE 365/LICENCIA OFFICE 3.png'),
                     },
                ],
           }
