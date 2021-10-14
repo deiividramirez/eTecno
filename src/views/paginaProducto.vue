@@ -50,16 +50,13 @@ export default {
     data() {
         return {
             items: [{
-                    src: '../assets/Imágenes/PORTATIL/PORTATIL ACER NITRO/ACER NITRO.png',
+                    src: require('../assets/Imágenes/PORTATIL/PORTATIL ACER NITRO/ACER NITRO.png'),
                 },
                 {
-                    src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+                    src: require('../assets/Imágenes/PORTATIL/PORTATIL ACER NITRO/ACER NITRO 2.png'),
                 },
                 {
-                    src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-                },
-                {
-                    src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+                    src: require('../assets/Imágenes/PORTATIL/PORTATIL ACER NITRO/ACER NITRO 3.png'),
                 },
             ],
         }
