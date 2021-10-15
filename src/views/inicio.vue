@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <v-container>
     <v-carousel hide-delimiters class="carrou">
       <v-carousel-item
@@ -9,6 +10,12 @@
         transition="fade-transition"
       ></v-carousel-item>
     </v-carousel>
+=======
+<v-container>
+     <v-carousel hide-delimiters class="carrou">
+          <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" reverse-transition="fade-transition" transition="fade-transition"></v-carousel-item>
+     </v-carousel>
+>>>>>>> 796fba6fcae48ee999d2c1a967eecde01e7c5417
 
 <a href="/asus">
  <v-img :src="require('@/assets/logo.png')"
@@ -66,6 +73,7 @@
 
 <script>
 export default {
+<<<<<<< HEAD
   data() {
     return {
       items: [
@@ -91,5 +99,28 @@ export default {
 <style scoped>
 .carrou {
   width: 100%;
+=======
+     data() {
+          return {
+               items: [{
+                         src: require('../assets/Imágenes/Carou1.png'),
+                    },
+                    {
+                         src: require('../assets/Imágenes/Carou2.png'),
+                    },
+                    {
+                         src: require('../assets/Imágenes/Carou3.png'),
+                    }
+               ],
+          }
+     },
+}
+</script>
+
+<style scoped>
+.carrou {
+     width: 100%;
+
+>>>>>>> 796fba6fcae48ee999d2c1a967eecde01e7c5417
 }
 </style>
