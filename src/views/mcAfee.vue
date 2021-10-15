@@ -1,18 +1,20 @@
 <template>
 <v-container fluid class="pa-0">
      <h2>McAfee Total Protection - 10 Dispositivos</h2>
-     <div class="paginaProducto">
+     <v-row>
+          <v-col>
           <v-carousel hide-delimiters class="carrousel">
                <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" width: 40%></v-carousel-item>
           </v-carousel>
-          <main>
+          </v-col>
+          <v-col>
                <div class="info-product">
                     <Section class="detail-info">
                          <h4 class="producto-info-title">
                               Resumen del producto:
                          </h4>
                          <p class="resume-list">
-                              McAfee&#174 Total Protection es un producto de seguridad de confianza para disfrutar de una protección
+                              McAfee #174 Total Protection es un producto de seguridad de confianza para disfrutar de una protección
                               antivirus, de identidad y de privacidad en sus PC, Mac, Smartphones y Tablets.
                          </p>
                          <Detalles>
@@ -33,8 +35,8 @@
                          </div>
                     </section>
                </div>
-          </main>
-     </div>
+          </v-col>
+     </v-row>
 </v-container>
 </template>
 
@@ -50,16 +52,3 @@ export default {
 }
 </script>
 
-<style>
-.paginaProducto {
-     display: flex;
-     padding: 4px;
-     border: 20px;
-
-}
-
-.carrousel {
-     width: 60%;
-
-}
-</style>

@@ -1,11 +1,13 @@
 <template>
 <v-container fluid class="pa-0">
      <h2>Computador de Mesa Ryzen 5 + Monitor 22"</h2>
-     <div class="paginaProducto">
+     <v-row>
+          <v-col>
           <v-carousel hide-delimiters class="carrousel">
                <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" width: 40%></v-carousel-item>
           </v-carousel>
-          <main>
+          </v-col>
+          <v-col>
                <div class="info-product">
                     <Section class="detail-info">
                          <h4 class="producto-info-title">
@@ -45,8 +47,8 @@
                          </div>
                     </section>
                </div>
-          </main>
-     </div>
+          </v-col>
+     </v-row>
 </v-container>
 </template>
 
