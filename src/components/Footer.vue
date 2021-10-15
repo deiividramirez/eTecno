@@ -24,7 +24,7 @@
                     <div><a href="/">Home</a></div>
                     <div><a href="/login">Login</a></div>
                     <div><a href="/carrito">Carrito</a></div>
-                    <div class="contact"><a href="/contacto">Contáctenos</a></div>
+                    <div class="contact"><a href="/about">Contáctenos</a></div>
                     <div class="media-icons">
                          <a href="#">
                               <v-list-item-icon>

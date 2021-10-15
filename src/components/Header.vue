@@ -16,30 +16,57 @@
      </v-list>
 
      <v-list nav dense>
+         <router-link to="/">
           <v-list-item link>
                <v-list-item-icon>
                     <v-icon>mdi-home</v-icon>
                </v-list-item-icon>
                <v-list-item-title @click="llamarInicio()">Inicio</v-list-item-title>
           </v-list-item>
+         </router-link>
+         <router-link to="/about">
           <v-list-item link>
                <v-list-item-icon>
                     <v-icon>mdi-cellphone</v-icon>
                </v-list-item-icon>
                <v-list-item-title @click="llamarContacto()">Contacto</v-list-item-title>
           </v-list-item>
+         </router-link>
+          
+          <router-link to="/login">
           <v-list-item link>
                <v-list-item-icon>
                     <v-icon>mdi-login-variant</v-icon>
                </v-list-item-icon>
                <v-list-item-title @click="llamarLogin()">Login</v-list-item-title>
           </v-list-item>
-          <v-list-item link>
+          </router-link>
+
+          <v-list-item link>          
                <v-list-item-icon>
                     <v-icon>mdi-cart</v-icon>
                </v-list-item-icon>
                <v-list-item-title>Carrito</v-list-item-title>
           </v-list-item>
+
+          <router-link to="/registroinventario">
+          <v-list-item link>          
+               <v-list-item-icon>
+                    <v-icon>mdi-login</v-icon>
+               </v-list-item-icon>
+               <v-list-item-title>Registrar producto</v-list-item-title>
+          </v-list-item>
+          </router-link>
+        
+          <router-link to="/tabla">
+          <v-list-item link>          
+               <v-list-item-icon>
+                    <v-icon small>info</v-icon>
+               </v-list-item-icon>
+               <v-list-item-title>Inventario</v-list-item-title>
+          </v-list-item>
+          </router-link>
+
      </v-list>
 </v-navigation-drawer>
 </template>
@@ -61,8 +88,12 @@
 
 <script>
 
+
 export default {
+    components:{
+    },
      data() {
+    
 
      },
      methods: {
