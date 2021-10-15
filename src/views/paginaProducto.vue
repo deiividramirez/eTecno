@@ -50,7 +50,7 @@ export default {
     data() {
         return {
             items: [{
-                    src: '../assets/Imágenes/PORTATIL/PORTATIL ACER NITRO/ACER NITRO.png',
+                    src: '../assets/logo.svg',
                 },
                 {
                     src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',

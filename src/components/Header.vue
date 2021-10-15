@@ -36,6 +36,13 @@
             </v-list-item-icon>
             <v-list-item-title>Login</v-list-item-title>
         </v-list-item>
+        <!--<v-list-item link>
+            <v-list-item-icon>
+                <v-icon>mdi-login-variant</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>Login</v-list-item-title>
+        </v-list-item>-->
+
     </v-list>
 </v-navigation-drawer>
 </template>
@@ -56,7 +63,9 @@
      </nav> -->
 
 <script>
+
 export default {
+  components: { Login },
     data() {
         return {
             drawer: true,
