@@ -52,7 +52,33 @@
           <v-col>
                <a href="/kaspersky">
                     <v-img :src="require('../assets/Imágenes/SOTWARE/LICENCIA KASPERSKY/LICENCIA KASPERSKY 1.jpg')" max-width="200" to="/afiliacion" width="100%"> </v-img>
-                    <p>Kaspersky Total Security- eTecno - Todo en tecnología</p>
+                    <p>Kaspersky Total Security</p>
+               </a>
+          </v-col>
+     </v-row>
+          <v-row>
+          <v-col>
+               <a href="/acerNitro5">
+                    <v-img :src="require('../assets/Imágenes/PORTATIL/PORTATIL ACER NITRO/ACER NITRO 3.png')" max-width="200" to="/afiliacion" width="100%"> </v-img>
+                    <p>Portatil Acer Nitro 5.</p>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/paginaProducto">
+                    <v-img :src="require('../assets/Imágenes/PORTATIL/PORTATIL ACER NITRO/ACER NITRO 2.png')" max-width="200" to="/afiliacion" width="100%"> </v-img>
+                    <p>Portatil Acer Nitro 2.</p>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/hpGamer">
+                    <v-img :src="require('../assets/Imágenes/PORTATIL/PORTATIL HP GAMER/PORTATIL HP GAMER 2.jpg')" max-width="200" to="/afiliacion" width="100%"> </v-img>
+                    <p>Portatil HP Pavilion Gaming 15</p>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/asus">
+                    <v-img :src="require('../assets/Imágenes/PORTATIL/PORTATIL ASUS/ASUS 1.png')" max-width="170" to="/afiliacion" width="100%"> </v-img>
+                    <p>Portatil Asus 15.6" FHD</p>
                </a>
           </v-col>
      </v-row>
