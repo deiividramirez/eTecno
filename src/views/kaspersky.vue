@@ -1,11 +1,13 @@
 <template>
 <v-container fluid class="pa-0">
      <h2>Kaspersky Total Security- eTecno - Todo en tecnología</h2>
-     <div class="paginaProducto">
+     <v-row>
+          <v-col>
           <v-carousel hide-delimiters class="carrousel">
                <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" width: 40%></v-carousel-item>
           </v-carousel>
-          <main>
+          </v-col>
+          <v-col>
                <div class="info-product">
                     <Section class="detail-info">
                          <h4 class="producto-info-title">
@@ -34,8 +36,8 @@
                          </div>
                     </section>
                </div>
-          </main>
-     </div>
+          </v-col>
+     </v-row>
 </v-container>
 </template>
 
@@ -58,16 +60,3 @@ export default {
 }
 </script>
 
-<style>
-.paginaProducto {
-     display: flex;
-     padding: 4px;
-     border: 20px;
-
-}
-
-.carrousel {
-     width: 60%;
-
-}
-</style>
