@@ -24,7 +24,7 @@
                <v-list-item-title @click="llamarInicio()">Inicio</v-list-item-title>
           </v-list-item>
          </router-link>
-         <router-link to="/about">
+         <router-link to="/contacto">
           <v-list-item link>
                <v-list-item-icon>
                     <v-icon>mdi-cellphone</v-icon>
