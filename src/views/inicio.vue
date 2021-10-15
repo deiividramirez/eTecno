@@ -52,7 +52,7 @@
           <v-col>
                <a href="/kaspersky">
                     <v-img :src="require('../assets/Imágenes/SOTWARE/LICENCIA KASPERSKY/LICENCIA KASPERSKY 1.jpg')" max-width="200" to="/afiliacion" width="100%"> </v-img>
-                    <p>Kaspersky Total Security- eTecno - Todo en tecnología</p>
+                    <p>Kaspersky Total Security</p>
                </a>
           </v-col>
      </v-row>
