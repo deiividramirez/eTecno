@@ -4,7 +4,28 @@
           <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" reverse-transition="fade-transition" transition="fade-transition"></v-carousel-item>
      </v-carousel>
 
-     <v-row
+     <v-row>
+          <v-col>
+               <a href="/">
+                    <v-img :src="require('@/assets/logo.png')" max-width="60" to="/afiliacion" width="100%"> </v-img>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/">
+                    <v-img :src="require('@/assets/logo.png')" max-width="60" to="/afiliacion" width="100%"> </v-img>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/">
+                    <v-img :src="require('@/assets/logo.png')" max-width="60" to="/afiliacion" width="100%"> </v-img>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/">
+                    <v-img :src="require('@/assets/logo.png')" max-width="60" to="/afiliacion" width="100%"> </v-img>
+               </a>
+          </v-col>
+     </v-row>
 
 </v-container>
 </template>
