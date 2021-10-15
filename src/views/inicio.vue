@@ -64,9 +64,9 @@
                </a>
           </v-col>
           <v-col>
-               <a href="/paginaProducto">
+               <a href="/acernitro5">
                     <v-img :src="require('../assets/Imágenes/PORTATIL/PORTATIL ACER NITRO/ACER NITRO 2.png')" max-width="200" to="/afiliacion" width="100%"> </v-img>
-                    <p>Portatil Acer Nitro 2.</p>
+                    <p>Portatil Acer Nitro 5.</p>
                </a>
           </v-col>
           <v-col>

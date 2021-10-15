@@ -65,3 +65,10 @@ export default {
      },
 }
 </script>
+
+<style scoped>
+v-carousel-item {
+     width: 60%;
+}
+
+</style>
