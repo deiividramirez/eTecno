@@ -6,7 +6,7 @@
 
     <Header/>
 
-
+    
     <v-main>
       <v-container>
         <router-view></router-view>
@@ -14,6 +14,7 @@
         <!-- <v-bottom-navigation app color="secondary"></v-bottom-navigation> -->
       </v-container>
     </v-main>
+
     <Footer />
   </v-app>
 </template>
@@ -32,6 +33,7 @@ export default {
   components: {
     Header,
     Footer,
+    
   },
 };
 </script>
