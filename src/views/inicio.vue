@@ -6,23 +6,47 @@
 
      <v-row>
           <v-col>
-               <a href="/">
-                    <v-img :src="require('@/assets/logo.png')" max-width="60" to="/afiliacion" width="100%"> </v-img>
+               <a href="/MesaR7">
+                    <v-img :src="require('../assets/Imágenes/PC_s/COMPUTADOR DE MESA RYZEN 7/RYZEN 7 2.jpg')" max-width="500" to="/afiliacion" width="100%"> </v-img>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/MesaR3">
+                    <v-img :src="require('../assets/Imágenes/PC_s/COMPUTADORA DE MESA RYZEN/RYZEN 2.jpg')" max-width="500" to="/afiliacion" width="100%"> </v-img>
+                    <p>Computador de Mesa Ryze 3</p>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/MesaR7">
+                    <v-img :src="require('../assets/Imágenes/PC_s/COMPUTADORA DE MESA RYZEN 5/RYZEN 5 3.jpg')" max-width="500" to="/afiliacion" width="100%"> </v-img>
                </a>
           </v-col>
           <v-col>
                <a href="/">
-                    <v-img :src="require('@/assets/logo.png')" max-width="60" to="/afiliacion" width="100%"> </v-img>
+                    <v-img :src="require('../assets/Imágenes/PERIFERICOS/DIADEMA JBL/DIADEMA JBL 1.png')" max-width="500" to="/afiliacion" width="100%"> </v-img>
+               </a>
+          </v-col>
+     </v-row>
+     <v-row>
+          <v-col>
+               <a href="/MesaR7">
+                    <v-img :src="require('../assets/Imágenes/PC_s/COMPUTADOR DE MESA RYZEN 7/RYZEN 7 2.jpg')" max-width="500" to="/afiliacion" width="100%"> </v-img>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/MesaR3">
+                    <v-img :src="require('../assets/Imágenes/PC_s/COMPUTADORA DE MESA RYZEN/RYZEN 2.jpg')" max-width="500" to="/afiliacion" width="100%"> </v-img>
+                    <p>Computador de Mesa Ryze 3</p>
+               </a>
+          </v-col>
+          <v-col>
+               <a href="/MesaR7">
+                    <v-img :src="require('../assets/Imágenes/PC_s/COMPUTADORA DE MESA RYZEN 5/RYZEN 5 3.jpg')" max-width="500" to="/afiliacion" width="100%"> </v-img>
                </a>
           </v-col>
           <v-col>
                <a href="/">
-                    <v-img :src="require('@/assets/logo.png')" max-width="60" to="/afiliacion" width="100%"> </v-img>
-               </a>
-          </v-col>
-          <v-col>
-               <a href="/">
-                    <v-img :src="require('@/assets/logo.png')" max-width="60" to="/afiliacion" width="100%"> </v-img>
+                    <v-img :src="require('../assets/Imágenes/PERIFERICOS/DIADEMA JBL/DIADEMA JBL 1.png')" max-width="500" to="/afiliacion" width="100%"> </v-img>
                </a>
           </v-col>
      </v-row>
